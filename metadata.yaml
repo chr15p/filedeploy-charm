@@ -1,0 +1,14 @@
+name: filedeploy
+summary: Places, or replaces, a file based on a template
+series:
+  - xenial
+maintainers: 
+  - chris procter <chris.procter@canonical.com>
+description: |
+        Places, or replaces, a File based on a template given in a base64 encded string, then optionally runs a command
+tags:
+  - file
+provides:
+  file:
+    interface: file
+    scope: container

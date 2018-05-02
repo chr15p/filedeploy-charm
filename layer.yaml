@@ -1,0 +1,3 @@
+repo: https://github.com/juju-solutions/layer-file.git
+includes: 
+  - 'layer:basic'

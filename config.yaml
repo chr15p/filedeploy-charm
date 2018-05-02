@@ -1,0 +1,21 @@
+options:
+  filename:
+    type: string
+    default: "/etc/file-charm"
+    description: "location to write file to"
+  contents:
+    type: string
+    default: ""
+    description: "file contents"
+  owner:
+    type: string
+    default: "root:root"
+    description: the user and group to own the file
+  mode:
+    type: string
+    default: "600"
+    description: the permisions to set on the file in octal
+  command:
+    type: string
+    default: ""
+    description: "Command to run when the file is updated"
